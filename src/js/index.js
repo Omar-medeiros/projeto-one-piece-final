@@ -5,7 +5,6 @@ const personagem = document.querySelectorAll(".personagem");
 
 botoes.forEach((botoes, index) => {
     botoes.addEventListener("click", () => {
-
         desselecionarBotao();
         desselecionarPersonagem();
 
